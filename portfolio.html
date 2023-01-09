@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jon's Portfolio</title>
+        <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="portfolio.css" />
+        <script defer src="portfolio.js"></script>
+    </head>
+    <body>
+        <nav class="container" style="margin-bottom: 2%; border-bottom: 3px solid #ccc;"> 
+            <ul class="nav-list">
+                <li class="nav-item" style="float:left">
+                    <a class="name" href="portfolio.html"> 
+                        Jon Priestley 
+                        <i class="nes-icon coin is-small"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="resource" href="work/work.html"> Work </a>
+                </li>
+                <li class="nav-item">
+                    <a class="resource" href="blogs/blogs.html"> Blogs </a>
+                </li>
+                <li class="nav-item">
+                    <a class="resource" href="about/about.html"> About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="resource" href="files/jon-resume.pdf"> Resume </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container welcome" style="margin-bottom: 5%">
+            <div class="container-2">
+                <div style="align-self: flex-end; margin-bottom: 2%">
+                    <img class="avatar" src="img/avatar.png">
+                </div>
+                <div style="align-self: center; margin-bottom: 25%;">
+                    <div style="margin-top: 26%">
+                        <div class="nes-balloon from-left">
+                            <p>Hi! I'm <span style="color:#a73169">Jon</span>, a UI/UX Designer from London.</p>
+                        </div>
+                        <div class="view-work-button">
+                            <a class="page-link" href="#work" style="color:white">
+                                <button type="button" class="nes-btn is-primary">View Work</button>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br id="work">
+        <div class="container" style="margin-bottom: 10%">
+            <h2 style="margin-bottom: 10%; border-bottom: 3px solid #ccc;">Selected UX Work</h2>
+            <div class="portfolio-container">
+                <a class="col" href="ia/ia.html">
+                    <h2 class="work-title">Information Architecture</h2>
+                    <div class="caption">
+                        <p> Researched and designed the IA for an amateur investor community forum. </p>
+                        <div class="tags">
+                            <p> Interviews </p>
+                            <p> IA </p>
+                            <p> Wireframes </p>
+                        </div>
+                    </div>
+                    <img class="ia-img" src="img/ia.png">
+                </a>
+                <a class="col" href="ixd/ixd.html">
+                    <h2 class="work-title">Design Thinking</h2>
+                    <div class="caption">
+                        <p> Followed a design thinking process to create an interactive system for The Cartoon Museum, London. </p>
+                        <div class="tags">
+                            <p> Research </p>
+                            <p> Design </p>
+                            <p> Prototyping </p>
+                        </div>
+                    </div>
+                    <img class="ixd-img" src="img/ixd.png">
+                </a>
+                <a class="col" href="uui/uui.html">
+                    <h2 class="work-title">Design Guidelines</h2>
+                    <div class="caption">
+                        <p> Researched and developed a set of guidelines to support the design of travel planning applications. </p>
+                        <div class="tags">
+                            <p> Research </p>
+                            <p> Analysis </p>
+                            <p> Guidelines </p>
+                        </div>
+                    </div>
+                    <img class="uui-img" src="img/uui.png">
+                </a>
+                <div class="col">
+                    <h2 class="work-title"> Web Development </h2>
+                    <div class="caption">
+                        <p> Developed a fun and informative website on web design principles for beginners. </p>
+                        <div class="tags" style="min-width: 240px">
+                            <p> Web Apps </p>
+                            <p> API </p>
+                            <p> Design </p>
+                        </div>
+                    </div>
+                    <img class="web-img" src="img/web.png">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>footer placeholder</p>
+        </footer>
+    </body>
+</html>
