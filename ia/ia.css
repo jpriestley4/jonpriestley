@@ -129,6 +129,13 @@ article{
     color: black;
 }
 
+.active{
+    text-decoration: none;
+    background-color: #94c5ac;
+    border-left: 4px solid #a73169;
+    color: black;
+}
+
 /* project overview */
 
 .challenge-container{
@@ -229,6 +236,216 @@ h4{
 .analyst-description p{
     max-height: 55%;
 }
+
+
+.domain-model-container{
+    display: flex;
+}
+
+.domain-des{
+    flex: 1;
+}
+
+.domain-img{
+    flex: 1;
+    width: 30%;
+}
+
+.site-map-container{
+    display: flex;
+}
+
+.site-map-des{
+    flex: 1;
+}
+
+.site-map-img{
+    flex: 1;
+    width: 30%;
+    height: 30%;
+    align-self: center;
+}
+
+.user-journey-container{
+    display: flex;
+}
+
+.journey-des{
+    flex: 1;
+}
+
+.journey-img{
+    flex: 1;
+    width: 30%;
+    height: 30%;
+    align-self: center;
+}
+
+.wireframes-container{
+    display: flex;
+}
+
+.wireframes-des{
+    flex: 1;
+}
+
+.wireframes-img{
+    flex: 1;
+    width: 30%;
+    height: 30%;
+    align-self: center;
+}
+
+/* related articles */
+
+.more-work{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: "press start 2p";
+    text-align: center;
+}
+
+.more-work-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.related-button, .related-button::after {
+    margin-right: 10%;
+    margin-bottom: 10%;
+    min-height: 50px;
+    flex: 1;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "Press Start 2P";
+    background: #c24b6e;
+    border: 0;
+    color: #fff;
+    box-shadow: 6px 6px 0px #ffeb99;
+    outline: transparent;
+    position: relative;
+  }
+  
+  .design-thinking::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    
+    content: 'DESIGN THINKING';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+    clip-path: var(--slice-0);
+  }
+  
+  .accessibility::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    
+    content: 'Accessibility Audit';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+    clip-path: var(--slice-0);
+  }
+
+  .webdev::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    
+    content: 'Web Development';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+    clip-path: var(--slice-0);
+  }
+
+  .related-button:hover::after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+  }
+  
+  @keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  }
+
+/* footer placeholder */
+
+footer{
+    background-color: #94c5ac;
+    min-height: 100px;
+}
+
 
 /* responsive style */
 

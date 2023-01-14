@@ -112,7 +112,6 @@ h2{
 
 .tags{
     display: flex;
-    max-width: 150px;
     align-self: center;
 }
 

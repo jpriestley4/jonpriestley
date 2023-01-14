@@ -1,0 +1,137 @@
+/* page styles */
+
+html,
+body{
+    height:100%;
+    width:100%;
+    background-color:#1b1e34;
+    background-image: linear-gradient(to bottom, #201127, #1b1e34);
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h2{
+    color: white;
+}
+
+hr{
+    margin-bottom: 5%;
+    margin-top: 5%
+}
+
+/* nav styles */
+
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.nav-item{
+    float: right;
+}
+
+.nav-item a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.resource{
+    transition: all 0.5s;
+}
+  
+.resource:hover{
+    transform: translate(0px,-2.5px);
+}
+
+.name{
+    transition: color 1s;
+}
+
+.name:hover{
+    color: #94c5ac;
+}
+
+/* intro */
+
+.intro{
+    min-height: 30%;
+    background-image: url("../img/accessibility.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    padding-top: 2%;
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+}
+
+/* main */
+
+.main{
+    display: flex;
+    border-top: 4px solid white;
+}
+
+aside{
+    flex: 1;
+    padding-top: 5%;
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+    min-height: 100px;
+    background-color: #355d68;
+}
+
+article{
+    flex: 3.5;
+    padding: 5%;
+    border-left: 2px solid white;
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+    min-height: 100px;
+}
+
+/* local nav */
+
+.local-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+}
+
+.local-nav-link{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5%;
+    margin-right: 0;
+}
+
+.local-nav-link:hover{
+    text-decoration: none;
+    background-color:#94c5ac;
+    color: black;
+}
+
+.active{
+    text-decoration: none;
+    background-color: #94c5ac;
+    border-left: 4px solid #a73169;
+    color: black;
+}
