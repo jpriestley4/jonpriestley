@@ -67,8 +67,9 @@ hr{
 
 .intro{
     min-height: 30%;
-    background-image: url("../img/accessibility.png");
+    background-image: url("../img/design-principles.png");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -134,4 +135,72 @@ article{
     background-color: #94c5ac;
     border-left: 4px solid #a73169;
     color: black;
+}
+
+/* Project Overview */
+
+.breakdown{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.breakdown-list{
+    padding: 0;
+}
+
+.breakdown-item{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+/* Body content */
+
+.global-nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-nav-des{
+    flex: 1;
+    margin-right: 2%;
+}
+
+.img-container{
+    flex:1;
+    margin-left: 2%;
+}
+
+.global-nav-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-img-container{
+    flex:1;
+    margin-right: 2%;
+}
+
+.home-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.home-des{
+    flex: 1;
+    margin-right: 2%;
 }
