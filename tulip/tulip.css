@@ -67,8 +67,10 @@ hr{
 
 .intro{
     min-height: 30%;
-    background-image: url("../img/design-principles.png");
-    background-size: cover;
+    background-image: url("../img/tulip.png");
+    background-size: 50%;
+    background-size: center;
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
 }

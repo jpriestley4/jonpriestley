@@ -272,6 +272,7 @@ h4{
 
 .journey-des{
     flex: 1;
+    padding-right: 10px;
 }
 
 .journey-img{
@@ -287,6 +288,7 @@ h4{
 
 .wireframes-des{
     flex: 1;
+    padding-right: 10px;
 }
 
 .wireframes-img{
