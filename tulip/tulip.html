@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../tulip/tulip.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script defer src="tulip.js"></script>
     </head>
     <body>
@@ -35,7 +36,7 @@
         <div class="container intro">
         </div>
         <div class="container title">
-            <h1> Web development: Design principles 101</h1>
+            <h1> Web app design: Tulip</h1>
         </div>
         <div class="container main">
             <aside>
@@ -44,24 +45,30 @@
                         <a class="local-nav-link active" href="#overview"> Project Overview </a>
                     </li>
                     <li>
-                        <a  class="local-nav-link" href="#approach"> Approach </a>
+                        <a  class="local-nav-link" href="#context"> Context </a>
                     </li>
                     <li>
-                        <a class="local-nav-link" href="#tools"> Tools </a>
+                        <a  class="local-nav-link" href="#timeline"> Timeline </a>
                     </li>
                     <li>
-                        <a  class="local-nav-link" href="#report"> Report </a>
+                        <a  class="local-nav-link" href="#research"> Research </a>
+                    </li>
+                    <li>
+                        <a class="local-nav-link" href="#design"> Design </a>
+                    </li>
+                    <li>
+                        <a  class="local-nav-link" href="#report"> Evaluation </a>
                     </li>
                 </ul>           
             </aside>
             <article>
                 <section id="overview">
                     <h2 style="text-align: center; margin-bottom: 5%"> Project Overview </h2>
-                    <h3>The brief</h3>
-                    <p> <em>The goal of this project was to design a web application that supports amateur investors in interpreting financial statements.  </em></p> 
+                    <h3> The Brief </h3> 
+                    <p> <em> Research and design a system to support amateur investors with interpreting financial statements. </em></p>
                     <div class="breakdown">
                         <div class="role">
-                            <h4> Role </h4>
+                            <h4> Role</h4>
                             <ul class="breakdown-list">
                                 <li class="breakdown-item">UX Designer</li>
                             </ul>
@@ -72,53 +79,160 @@
                                 <li class="breakdown-item">6 Months</li>
                             </ul>
                         </div>
+                        <div class="Tools">
+                            <h4> Tools </h4>
+                            <ul class="breakdown-list">
+                                <li class="breakdown-item">Figma</li>
+                                <li class="breakdown-item">Dovetail</li>
+                            </ul>
+                        </div>
                         <div class="Skills">
                             <h4> Skills </h4>
                             <ul class="breakdown-list">
                                 <li class="breakdown-item"> User Research </li>
-                                <li class="breakdown-item"> UX Design </li>
-                                <li class="breakdown-item"> UI Design </li>
+                                <li class="breakdown-item"> Conceptual Design </li>
+                                <li class="breakdown-item"> Prototyping </li>
                                 <li class="breakdown-item"> User Testing </li>
                             </ul>
                         </div>
                     </div>
+                <hr style="opacity:50%">
+                <section id="context">
+                    <h2 style="text-align: center; margin-bottom: 5%"> Context </h2>
+                    <p style="text-align: center"><em>"Investing without research is like playing stud poker and never looking at the cards" - Peter Lynch</em>
+                    <p> In the finance industry, retail investors have been typically labelled as ‘dumb money’ because they tend to base their investment decisions on instinct rather than research and unfortunately such behaviour adversely affects their investment returns. This is largely due to retail investors not having enough time, experience, or patience to conduct thorough investment research.</p>
+                    <p>Renowned money manager, Peter Lynch, argues that retail investors are able to pick winning stocks just as well as Wall Street experts by taking notice of their immediate world around them and doing just a little research into financial statements.</p>
+                    <p>For many amateur retail investors, financial statement analysis has been made out to be esoteric and technical. However, once equipped with the understanding of what different key numbers mean, reviewing financial statements becomes part of a broader and more intuitive process of interpreting a story surrounding a company and deciidng on whether or not to invest. </p>
+                    <p> Today, many decision support systems do little to empower amateur investors in interpreting financial information. Instead, these systems are typically designed to offload the user's cognitive processing, resulting in slow and ineffective learning. </p>
+                    <div class="the-challenge">
+                        <h3 style="text-align:center"> The Challenge </h3> 
+                        <p> How might we design a system that empowers amateur investors to interpret a company's financial statements? </p>
+                    </div>
+                    <h3 style="text-align:center; margin-top: 5%"> Project Aim </h3> 
+                    <p>The aim of this project is to research the interaction behaviour and rationale of expert financial analysts when interpreting financial statements. Subsequently, this project aims to address this behaviour in a prototype designed to support amateur investors.</p>
+                    <h3 style="text-align:center">Objectives</h3>
+                    <p> To achieve this aim, I established the following objectives:</p>
+                        <ol>
+                            <li>To understand the interaction behaviour and rationale of expert financial analysts when interpreting financial statements.</li>
+                            <li>Establish design guidelines in line with the research findings.</li>
+                            <li>Produce a high-fidelity prototype that supports amateur investors in interpreting financial statements.</li>
+                            <li>Evaluate the usefulness of the prototype by observing amateur investors using the prototype to interpret financial statements.</li>
+                        </ol>
                 </section>
                 <hr style="opacity:50%">
-                <section id="approach">
-                    <h2 style="text-align: center; margin-bottom: 5%"> Key Features </h2>
-                    <ul>
-                        <li> The page navigation toolbar has a smooth scrolling effect so that users can efficiently skip to the content they want. </li>
-                        <li> Filters are used on the ‘Grids’, ‘Space’ and ‘Responsive' pages, allowing users to sift through content. </li>
-                        <li> On the ‘Colour’ page, interactive colour wheels provide a visually engaging way of understanding different colour schemes.</li>
-                        <li>A dynamic data array is used on the ‘Responsive Design’ page to allow users to browse through common screen resolutions by device type.</li>
-                        <li>The ‘Blogs’ page uses an Application Programming Interface (API) to pull relevant articles and blogs.</li>
-                        <li>The ‘Icons Quiz’ page provides a fun quiz that lets users test their understanding of iconography.</li>
-                        <li>Interactive flip cards are used on the ‘Space’ page. </li> 
-                        <li>Videos are embedded in the ‘Videos’ and ‘Grids’ pages. </li>
-                        <li>Slideshows are used on the ‘Grids’ and ‘Typography’ pages.</li>
-                    </ul>
+                <section id="timeline">
+                    <h2 style="text-align: center;">Timeline</h2>
+                    <div class="timeline-container">
+                        <div class="line"></div>
+                        <div class="text-box" style="color: white; background: #6aaf9d;">
+                            <h3>Literature Review</h3>
+                            <small>July 2022</small>
+                            <p>Relevant literature pertaining to the subject of this study was collated and critically assessed</p>
+                        </div>         
+                        
+                        <div class="text-box" data-aos="fade-down" style="color: white; background: #94c5ac;">
+                            <h3>Data Collection</h3>
+                            <small>August 2022</small>
+                            <p>Planning and conducting a series of contextual inquiry interviews of eight expert financial analysts</p>
+                        </div>  
+                        
+                        <div class="text-box" data-aos="fade-down" style="background: #ffeb99;">
+                            <h3>Data analysis</h3>
+                            <small>August 2022</small>
+                            <p>Data was then transcribed and analysed using a thematic analysis approach.</p>
+                        </div>
+    
+                        <div class="text-box" data-aos="fade-down" style="background: #ffc27a;">
+                            <h3>Design Guidelines</h3>
+                            <small>September 2022</small>
+                            <p>A set of design guidelines were synthesised from the findings of the analysis.</p>
+                        </div>
+    
+                        <div class="text-box left-box" data-aos="fade-down" style="background: #ec9a6d; color: white">
+                            <h3>Design</h3>
+                            <small>October 2022</small>
+                            <p>A detailed and functional high-fidelity prototype was designed using Figma. </p>
+                        </div>
+    
+                        <div class="text-box" data-aos="fade-down" style="background: #d9626b; color: white">
+                            <h3>Evaluation</h3>
+                            <small>November 2022</small>
+                            <p>A series of user tests were conducted to evaluate the usefulness of the prototype. </p>
+                        </div>
+                    </div>
+                </section>
+                <hr style="opacity:50%" id="research">
+                <section>
+                <h2 style="text-align: center;">Research</h2>
+                <div class="topic-filters">
+                    <button class="nes-btn is-success topic-button">Data Collection</button>
+                    <button class="nes-btn is-primary topic-button">Analysis</button>
+                    <button class="nes-btn is-primary topic-button">Findings</button>
+                </div>
+            
+                <div class="topics">
+                    <!-- Content visible on page load -->
+                    <div class="topic-details topic-details-data show">
+                        <div>
+                            <h3>Desk Research</h3>
+                            <p>I began the research process by conducting some desk research to identify appropriate methods that I can use to understand the behaviour and rationale of expert analysts when performing financial statement analysis. It was important to explore methods that emphasised a naturalistic approach whereby participants are observed in their natural environments. One method that stood out was contextual inquiry.</p>
+                            <h3>Contextual Inquiry</h3>
+                            <p>I employed a contextual inquiry approach by interviewing a sample of eight expert financial analysts as they performed financial statement analysis in their natural environment. This involved participants analysing the financial statements of a company that they needed to analyse now or in the near future and then deciding on whether or not to invest in that company. </p>
+                            <p> The interviews were conducted remotely via zoom. </p>
+                        </div>
+                        <h3>Four principles</h3> 
+                        <p> This study collectively applied the following four principles help to deliver rich qualitative insights that would later inform design decisions. </p>
+                        <ul>
+                            <li><strong>Context: </strong>Capture an ongoing experience rather than summary experience and concrete data as opposed to abstract data.</li>
+                            <li><strong>Partnership: </strong>Collaborate with the participant to develop a shared understanding of the participant’s work.</li>
+                            <li><strong>Interpretation: </strong>Assign meaning to insights gathered by infering possible system designs which can support the participant’s work structure. </li>
+                            <li><strong>Focus: </strong>Have a clear interview framework to steer the conversation towards data that is relevant for the study.</li>
+                        </ul>
+                        <div class="back-to-top">
+                            <a class="scroll-btn" href="#research" data-aos="fade-up">
+                                <button class="nes-btn is-error">Back to research topics</button>
+                            </a>
+                        </div>
+                    </div>    
+                
+                    <!-- Hierarchy content displayed on clicking Styles button -->
+                    <div class="topic-details topic-details-analysis hide">
+                        <h3 class="heading hierarchy">Thematic Analysis</h3>
+                        <p> I used a thematic analysis approach to assess 
+                            I systematically analysed the behaviour and rationale of the expert investors using the following thematic analysis process.</p>
+                        <div class="analysis-container">
+                            <div class="analysis-des">
+                                <h3>Thematic Analysis Process</h3>
+                                <ol>
+                                    <li>Transcribe, read, re-read and write down initial ideas.</li>
+                                    <li>Systematically generate initial codes which relate to interesting features of the data and collating relevant data into each code. To support this step, the qualitative data analysis software, <span style="color: #ec9a6d">Dovetail,</span> was used to assign tags to data</li>
+                                    <li>Collating codes into potential themes</li>
+                                    <li>Reviewing the themes by looking at the underlying data under each theme and checking that the themes made sense in relation to the coded extracts.</li>
+                                    <li>Defining and naming the themes to help tell the overall story of the analysis.</li>
+                                    <li>The sixth step focused on producing the analysis report by selecting compelling and vivid extract examples.</li>
+                                </ol>
+                            </div>
+                            <div class="analysis-img">
+                                <img src="../img/dovetail.png" alt="dovetail's canvas view">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Typeface content displayed on clicking Styles button -->
+                    <div class="topic-details topic-details-findings hide">
+                        <h3 class="heading typeface">Findings</h3>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores cum accusantium optio, doloribus perferendis, placeat facere molestias corporis cumque adipisci, laboriosam fuga nobis quam amet error praesentium laborum molestiae eos. </p>
+                    </div>    
                 </section>
                 <hr style="opacity:50%">
                 <section>
-                    <h2 style="text-align: center; margin-bottom: 5%"> Functionality </h2>
-                    <div class="global-nav-container">
-                        <div class="global-nav-des">
-                            <h3 style="margin-bottom: 5%; margin-top: 5%"> Global Navigation </h3>
-                            <p> The global navigation bar provides links to supplementary resource pages. These links are styled with a <em>Hover</em> CSS property, providing feedback to communicate that these are clickable links. In addition, the site’s logo is placed on the left hand side of the global navigation which acts as a link to the home page. This aligns with standard web design practice as it orientates users around the purpose of the site (Whitenton, 2016). Since the logo is quite large, media queries are used to create a responsive logo which accommodates different screen sizes. This responsive design provides white space to assist with the legibility of the navigation links. </p>
-                        </div>
-                        <div class="img-container">
-                            <img class="global-nav-img" src="../img/global-nav.png" />
-                        </div>
-                    </div>
-                    <div class="home-container">
-                        <div class="home-img-container">
-                            <img class="home-img" src="../img/home.png" />
-                        </div>
-                        <div class="home-des">
-                            <h3 style="margin-bottom: 5%; margin-top: 5%"> Home page </h3>
-                            <p> The body of the Home page includes links to all the design guides that represent the main content on the site. Each guide was styled with a concise header that contrasts against a distinctly styled background. These headers and images give an indication of the content underneath each link, providing useful information scent to the user (Budiu, 2020). When a user hovers over each guide, a ‘box-shadow’ and ‘scaling’ effect appears. This prompts users to click on the guides. One difficulty when creating these links was preventing the background images from tiling when the browser window changes in size. This was easily resolved by using the background-repeat: none CSS property. In addition, media queries are used so that the guides are responsive to different screen sizes. </p>
-                        </div>
-                    </div>
-                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati rerum neque dolorum ea soluta atque, saepe sint quia nam earum pariatur. Veniam, itaque est molestiae omnis exercitationem accusantium voluptates.</p>
                 </section>
             </article>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+</html>

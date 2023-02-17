@@ -130,6 +130,10 @@ h2{
     border-radius: 5px;
 }
 
+h4{
+    font-family: 'Anek Latin', sans-serif;
+}
+
 .portfolio-container{
     min-height: 400px;
     margin-left: auto;
