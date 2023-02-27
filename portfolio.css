@@ -242,6 +242,20 @@ footer{
     color: white;
     font-family: 'Anek Latin', sans-serif;
     text-align: center;
+    margin-top: 2%;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.linkedin{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anek Latin', sans-serif;
 }
 
 /* mobile */
