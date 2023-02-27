@@ -29,7 +29,7 @@
                     <a class="resource" href="about/about.html"> About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="resource" href="../files/jon-resume.pdf"> Resume </a>
+                    <a class="resource" href="../files/cv.pdf" target="_blank"> CV </a>
                 </li>
             </ul>
         </nav>
@@ -45,7 +45,7 @@
                         <a class="local-nav-link" href="#overview"> Project Overview </a>
                     </li>
                     <li>
-                        <a  class="local-nav-link" href="#understand"> Research </a>
+                        <a  class="local-nav-link" href="#research"> Research </a>
                     </li>
                     <li>
                         <a class="local-nav-link" href="#site-map"> Site Map </a>
@@ -63,15 +63,9 @@
             </aside>
             <article>
                 <section id="overview">
-                    <h2> Project Overview </h2>
-                    <p> Amateur investors are commonly labelled in the finance industry as, ‘dumb money’. This is because they tend to base their investment decisions on instinct rather than research. Such behaviour is made worse by online forums such as r/WallStreetBets encouraging the gambling instincts of amateur investors.  </p>
-                    <p> This project examines an information architecture which helps to support amateur investors in discovering information surrounding the stock market. </p>
-                    <div class="challenge-container">
-                        <div class="challenge">
-                            <h3> Brief </h3>
-                            <p> <em> Design an information architecture for an online research forum which supports amateur investors in searching and discovering information surrounding financial markets. </em> </p>
-                        </div>
-                    </div>
+                    <h2 style="text-align: center;"> Project Overview </h2>
+                    <h3> Brief </h3>
+                    <p> <em> Design an information architecture for an online research forum which supports amateur investors in searching and discovering financial market information. </em> </p>
                     <div class="breakdown">
                         <div class="role">
                             <h4> Role</h4>
@@ -103,11 +97,11 @@
                         </div>
                     </div>
                 </section>
-                <hr style="opacity: 50%">
-                <section id="understand">
-                    <h2> Research</h2>
+                <section id="research">
+                    <hr style="opacity: 50%">
+                    <h2 style="text-align: center; margin-bottom: 5%"> Research</h2>
                     <h3> Interviews </h3>
-                    <p> To understand the important concepts of the domain, the needs of the target users and commonly used terminology, the following three amateur stock investors were interviewed: <p>
+                    <p> To understand the important concepts of the domain, the needs of the target users and commonly used terminology, I interviewed three amateur stock investors: <p>
                     <div class="audience">
                         <div class="person">
                             <img class="audience-icon icon-1" src="../img/old-man.png" >
@@ -132,28 +126,33 @@
                         <div class="icon">
                             <img class="analyst-icon" src="../img/analyst.png" >
                         </div>
-                        <div class="analyst-description">
-                            <p> To ensure a more holistic representation of the domain, a professional stock market investor was interviewed with a mental model rooted in practical examples rather than abstract concepts and relationships. </p>
+                        <div class="analyst-description" style="margin-top: 2%; text-align: center;">
+                            <p> To ensure a more holistic representation of the domain, I also interviewed a professional stock market investor. </p>
                         </div>
                     </div>
                     <h3> Competitor Analysis </h3>
-                    <p> A competitor analysis of similar sites (Motley Fool, Seeking Alpha and Reddit) was conducted to identify standard terminology and to check if there were any missing concepts from the interviews. </p>
+                    <p> To identify standard terminology and to check if there were any missing concepts from the interviews, I reviewed similar investing forum sites (Motley Fool, Seeking Alpha and Reddit).  </p>
                     <div class="domain-model-container">
                         <div class="domain-des">
                             <h3> Domain Model </h3>
-                            <p> To help bridge the gap between the identified requirements and the design, I created a <a href="../files/domain-model.pdf"> domain model. </a></p>
+                            <p> To help bridge the gap between the identified requirements and the design, I created a domain model. </a></p>
                             <p> The hub-and-spoke structure illustrates the key relationships between the users as the domain’s central theme and the relevant surrounding entities. </p>
                             <p> Detailed annotations are provided which give clear explanations for any industry standard jargon. </p>
                         </div>
-                        <img src="../img/domain.png" class="domain-img" />
+                        <div class="img-container">
+                            <a href="../files/domain-model.pdf" target="_blank">
+                                <img src="../img/domain.png" class="domain-img" />
+                            </a>
+                            <p style="opacity: 60%;"><em> Click image to view </em></p>
+                        </div>
                     </div>
                 </section>
-                <hr style="opacity: 50%">
                 <section id="site-map">
+                    <hr style="opacity: 50%">
+                    <h2 style="text-align: center; margin-bottom: 5%;"> Site Map</h2>
+                    <p> I created a site map to illustrate the information organisation and classification schemes. </p>
                     <div class="site-map-container">
                         <div class="site-map-des">
-                            <h2> Site Map</h2>
-                            <p> I created a <a href="../files/site-map.png"> site map </a> to illustrate the information organisation structure and classification schemes. </p>
                             <h3> Organisation Structure </h3>
                             <p> A <strong style="color:#94c5ac">catalogue</strong> organisation structure is used to allow users to perform both top-down and bottom-up approaches to information seeking: </p>
                             <ul>
@@ -161,31 +160,41 @@
                                 <li> A bottom-up approach begins with users filtering for a specific stock or fund and then working upwards by discovering research relating to the company's industry or country. </li>
                             </ul>
                         </div>
-                        <img src="../img/sitemap.png" class="site-map-img" />
+                        <div class="img-container">
+                            <a href="../files/site-map.png" target="_blank">
+                                <img src="../img/sitemap.png" class="site-map-img" />
+                            </a>
+                            <p style="opacity: 60%;"><em> Click image to view </em></p>
+                        </div>
                     </div>
                     <h3> Classification Schemes </h3>
                     <p> To support the discovery of related research, a <strong style="color:#94c5ac">hybrid</strong> classification scheme is used whereby different classification schemes are used at different levels of the site's taxonomy. </p>
                     <p>A <strong style="color:#94c5ac">polyhierarchy</strong> is used at the lowest levels of the ‘Country’ and ‘Industry’ hierarchies to make it easy for users to find content that belongs to both categories.</p> 
                     <p>The labelling of the site map was tested using an <strong style="color:#94c5ac">open card sort </strong> with 15 participants with varying levels of skill and mental models. With this insight, two top-level labels were modified, ‘Security’ (previously ‘Investments’) and ‘Guide’ (previously ‘Community’) to ensure ‘user-oriented language’.</p>
                 </section>
-                <hr style="opacity: 50%">
                 <section id="user-journey">
-                    <h2> User Journey </h2>
+                    <hr style="opacity: 50%">
+                    <h2 style="text-align: center; margin-bottom: 5%;"> User Journey </h2>
                     <div class="user-journey-container">
                         <div class="journey-des">
-                            <p> A <a href="../files/user-journey.pdf"> user journey </a> was created to help figure out how elements of the site will flow together. </p>
+                            <p> A user journey was created to help figure out how elements of the site will flow together. </p>
                             <p> The descriptive scenario was carefully selected in order to show all potential bottom-up and top-down browsing paths, the scoped search capability and faceted navigation. </p> 
                             <p> To provide a more comprehensive view of the site, the journey also shows how a user interacts with the utility navigation through liking a stock. </p>
                         </div>
-                        <img src="../img/userjourney.png" class="journey-img" />
+                        <div class="img-container">
+                            <a href="../files/user-journey.pdf" target="_blank">
+                                <img src="../img/userjourney.png" class="journey-img" />
+                            </a>
+                            <p style="opacity: 60%;"><em> Click image to view </em></p>
+                        </div>
                     </div>
                 </section>
                 <section id="wireframes">
                     <hr style="opacity: 50%">
+                    <h2 style="text-align: center; margin-bottom: 5%;"> Wireframes </h2>
                     <div class="wireframes-container">
                         <div class="wireframes-des">
-                            <h2> Wireframes </h2>
-                            <p> To illustrate the variety of navigation and search elements on the site, I created <a href="../files/wireframes.pdf"> wireframes </a> for four key pages from the user journey: </p>
+                            <p> To illustrate the variety of navigation and search elements on the site, I created wireframes for four key pages from the user journey: </p>
                             <ol>
                                 <li> Research Article Page</li>
                                 <li> Stock Profile Page </li>
@@ -193,7 +202,12 @@
                                 <li> Hot Stocks Page </li>
                             </ol>
                         </div>
-                        <img src="../img/wireframes.png" class="wireframes-img" />
+                        <div class="img-container">
+                            <a href="../files/wireframes.pdf" target="_blank">
+                                <img src="../img/wireframes.png" class="wireframes-img" />
+                            </a>
+                            <p style="opacity: 60%;"><em> Click image to view </em></p>
+                        </div>
                     </div>
                     <h3> Key Navigation Elements </h3>
                     <p> <strong style="color:#94c5ac"> Global Navigation: </strong>An inverted-L global navigation design (D1: S1) is used to provide a constant visual reference of related pages, supporting recognition over recall. </p> 
@@ -202,9 +216,9 @@
                     <p> <strong style="color:#94c5ac"> Associated Navigation: </strong> To support the discovery of investable securities, a list of related stocks and ETFs (D2: A2) that share a similar list of metadata tags is displayed on the security profile page. Furthermore a list of related country, industry and security articles (D2: A5) helps the user find related articles as they progressively build their own investment rationale. </p>
                     <p id="evaluation"> <strong style="color:#94c5ac"> Social Navigation:</strong> Community tagging (D1: SO1) allows content creators to tag their research articles using a list of centrally defined tags. </p>
                 </section>
-                <hr style="opacity: 50%">
-                <section>
-                    <h2> Evaluation </h2>
+                <section id="evaluation">
+                    <hr style="opacity: 50%">
+                    <h2 style="text-align: center; margin-bottom: 5%;"> Evaluation </h2>
                     <p> Five target users were recruited to evaluate the wireframes. </p>
                     <p> The most significant issue identified was that novice investors did not understand some of the terminology shown on the stock profile page, such as P/E Ratio. Therefore, help icons (D2: EV1) were added to reveal a pop-up window providing a short clarification along with a hyperlink that directs the user to a learning page under the ‘Guide’ section of the site for further explanation. </p>
                     <p> Looking forward, web analytics can shed some light on the behaviour of users visiting the site. This analysis will stimulate further user research to help improve the design of the site’s information architecture. </p>
@@ -214,17 +228,17 @@
                 <div class="more-work-container">
                     <a href="../ixd/ixd.html" style="color: white;">
                         <button class="nes-btn is-primary">
-                        Design Thinking
+                        The Cartoon Museum
                         </button>
                     </a>
                     <a href="../wcag/wcag.html" style="color: white;">
                         <button class="nes-btn is-primary">
-                        Accessibility Audit
+                        My Care Budget
                         </button>
                     </a>
-                    <a href="../web/ixd.html" style="color: white">
+                    <a href="../tulip/tulip.html" style="color: white">
                         <button class="nes-btn is-primary">
-                        Web Development
+                        Tulip
                         </button>
                     </a>
                 </div>

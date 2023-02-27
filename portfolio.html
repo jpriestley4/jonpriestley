@@ -16,26 +16,26 @@
     <body>
         <nav class="container" style="margin-bottom: 2%; border-bottom: 3px solid #ccc;"> 
             <ul class="nav-list">
-                <li class="nav-item" style="float:left">
+                <li class="nav-item home" style="float:left">
                     <a class="name" href="portfolio.html"> 
                         Jon Priestley 
                         <i class="nes-icon coin is-small"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="resource" href="work/work.html"> Work </a>
+                    <a class="resource" href="#work"> Work </a>
                 </li>
                 <li class="nav-item">
                     <a class="resource" href="about/about.html"> About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="resource" href="files/jon-resume.pdf"> Resume </a>
+                    <a class="resource" href="files/cv.pdf" target="_blank"> CV </a>
                 </li>
             </ul>
         </nav>
-        <div class="container welcome" style="margin-bottom: 5%">
+        <div class="container welcome">
             <div class="container-2">
-                <div style="align-self: flex-end; margin-bottom: 2%">
+                <div class=avatar-container>
                     <img class="avatar" src="img/avatar.png">
                 </div>
                 <div style="align-self: center; margin-bottom: 25%;">
@@ -53,13 +53,13 @@
             </div>
         </div>
         <br id="work">
-        <div class="container" style="margin-bottom: 10%">
+        <div class="container selected-work">
             <h2 style="margin-bottom: 10%; border-bottom: 3px solid #ccc;">Selected UX Work</h2>
             <div class="portfolio-container">
                 <a class="col" href="ia/ia.html">
-                    <h2 class="work-title">Information Architecture</h2>
+                    <h2 class="work-title">Deep Dive</h2>
                     <div class="caption">
-                        <p> Researched and designed the IA for an amateur investor community forum. </p>
+                        <p> Researched and designed the Information Architecture for an amateur investor community forum. </p>
                         <div class="tags">
                             <p> Interviews </p>
                             <p> IA </p>
@@ -69,7 +69,7 @@
                     <img class="ia-img" src="img/ia.png">
                 </a>
                 <a class="col" href="ixd/ixd.html">
-                    <h2 class="work-title">The Cartoon Booth</h2>
+                    <h2 class="work-title">The Cartoon Museum</h2>
                     <div class="caption">
                         <p> Followed a design thinking process to create an interactive system for The Cartoon Museum, London. </p>
                         <div class="tags">
@@ -81,7 +81,7 @@
                     <img class="ixd-img" src="img/ixd.png">
                 </a>
                 <a class="col" href="wcag/wcag.html">
-                    <h2 class="work-title">Accessibility Audit</h2>
+                    <h2 class="work-title">My Care Budget</h2>
                     <div class="caption">
                         <p> Conducted a WCAG 2.1 accessibility audit on a healthcare budgeting website </p>
                         <div class="tags" style="min-width: 150%;">
@@ -97,8 +97,8 @@
                     <div class="caption">
                         <p> Designed a web application to support amateur investors with interpreting a company's financial statements </p>
                         <div class="tags" style="min-width: 240px">
-                            <p> Design </p>
                             <p> Research </p>
+                            <p> Design </p>
                             <p> Testing </p>
                         </div>
                     </div>
@@ -107,7 +107,22 @@
             </div>
         </div>
         <footer>
-            <p>footer placeholder</p>
+            <div class="contact-me">
+                <h3>Contact</h3>
+                <ul>
+                    <li>
+                        <a href="mailto:jon.priestley@gmail.com" target="_blank">
+                            <i class="nes-icon gmail is-medium"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jonathan-priestley/">
+                            <i class="nes-icon linkedin is-medium"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="credit">Website designed and developed by Jonathan Priestley</p>
         </footer>
     </body>
 </html>

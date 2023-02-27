@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Accessibility audit</title>
+        <title>My Care Budget</title>
         <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../wcag/wcag.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script defer src="wcag.js"></script>
     </head>
     <body>
@@ -29,7 +30,7 @@
                     <a class="resource" href="about/about.html"> About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="resource" href="../files/jon-resume.pdf"> Resume </a>
+                    <a class="resource" href="../files/cv.pdf" target="_blank"> CV </a>
                 </li>
             </ul>
         </nav>
@@ -59,7 +60,7 @@
                 <section id="overview">
                     <h2 style="text-align: center; margin-bottom: 5%"> Project Overview </h2>
                     <h3>The brief</h3>
-                    <p> <em>conduct a WCAG 2.1 accessibility audit of mycarebudget.org up to an AA conformity level. Mycarebudget.org is a website which helps people manage their budgeting for care services.</em></p> 
+                    <p> <em>Conduct a WCAG 2.1 accessibility audit of mycarebudget.org up to an AA conformity level. Mycarebudget.org is a website which helps people manage their budgeting for care services.</em></p> 
                     <div class="breakdown">
                         <div class="role">
                             <h4> Role </h4>
@@ -86,23 +87,23 @@
                 <hr style="opacity:50%">
                 <section id="approach">
                     <h2 style="text-align: center; margin-bottom: 5%"> 3 Step Approach </h2>
-                    <div class="approach-container">
-                        <div class="auto-container"> 
-                            <div class="number-1">1</div>
-                            <h3>Automated checks</h3>
-                            <p>To identify the most problematic and impactful accessibility issues, automated checks were performed using WAVE, a web accessibility evaluation browser plugin. This quick and dirty approach was a great way to start the audit process but a more thorough, manual review was also needed. </p>
-                            <img class="arrow-down-right" src="../img/arrow-down-right.png" style="height: 100px; width: 100px;" />
-                        </div>
-                        <div class="manual-container"> 
-                            <div class="number-2">2</div>
-                            <h3>Manual checks</h3>
-                            <p>The manual checks involved inspecting the website's code against WCAG 2.1 guidelines and using text-to-speech software, such as Mac's VoiceOver, to test whether screenreader users can navigate the site. </p>
-                            <img class="arrow-down-right" src="../img/arrow-down-right.png" style="height: 100px; width: 100px;" />
-                        </div>
-                        <div class="report-container"> 
-                            <div class="number-3">3</div>
-                            <h3>Prioritising and reporting findings</h3>
-                            <p>To draw the stakeholder's attention to addressing the most serious and impactful issues, each finding was assigned a severity rating. Then, these issues were organised in a concise report covering the four main WCAG principles: Perceivable, Operable, Understandable and Robust. </p>
+                    <div class="timeline-container">
+                        <div class="text-box auto-checks">
+                            <h2 style="text-align: center;">1</h2>
+                            <h3 style="text-align: center;">Automated checks</h3>
+                            <p style="text-align: center">To identify the most problematic and impactful accessibility issues, I performed automated checks using a web accessibility evaluation tool called, WAVE. This quick and dirty approach was a great way to start the audit process but a more thorough, manual review was also needed.</p>
+                        </div>         
+                        
+                        <div class="text-box manual-checks" data-aos="fade-right">
+                            <h2 style="text-align: center;">2</h2>
+                            <h3 style="text-align: center;">Manual checks</h3>
+                            <p style="text-align: center;">For a more thorough review, I performed manual checks by inspecting the website's code and using text-to-speech software. </p>
+                        </div>  
+                        
+                        <div class="text-box reporting" data-aos="fade-right">
+                            <h2 style="text-align: center; color: black">3</h2>
+                            <h3 style="text-align: center;">Prioritising and reporting findings</h3>
+                            <p style="text-align: center;">To draw attention to the most serious and impactful issues, I assigned a severity rating to each identified issue and present these issues in a concise and impactful report. </p>
                         </div>
                     </div>
                 </section>
@@ -117,7 +118,7 @@
                         </div>
                         <img class="wave-img" src="../img/wave.png" />
                     </div>
-                    <div class="easy-container" style="margin-top: 5%">
+                    <div class="easy-container" style="margin-top: 10%">
                         <div class="easy-checks">
                             <h3>W3C's Easy Checks</h3>
                             <p> I used W3C's Easy Checks to get an overview of the most important areas to investigate for when conducting an accessibility audit. </p>
@@ -137,14 +138,14 @@
                             </ol>
                         </div>
                     </div>
-                    <div class="markup-container" style="margin-top: 5%">
+                    <div class="markup-container" style="margin-top: 10%">
                         <div class="markup-des">
                             <h3>W3C's Markup Validation Service</h3>
                             <p> I used W3C’s Markup Validation Service to assess whether the site’s HTML was built correctly in order for it to be compatible with various assistive technologies. </p>
                         </div>
                         <img class="markup-img" src="../img/markup.png" />
                     </div>
-                    <div class="key-container" style="margin-top: 5%">
+                    <div class="key-container" style="margin-top: 10%">
                         <div class="key-des">
                             <h3>Keyboard navigation</h3>
                             <p> As part of the manual checks, I navigated each page using only my keyboard. Page elements should be fully navigable using they keyboard by pressing the 'Tab' button </p>
@@ -152,7 +153,7 @@
                         </div>
                         <img class="key-img" src="../img/key.jpeg" />
                     </div>
-                    <div class="vo-container" style="margin-top: 5%">
+                    <div class="vo-container" style="margin-top: 10%">
                         <div class="vo-des">
                             <h3>Mac's VoiceOver OS Screen Reader</h3>
                             <p>I used Mac's VoiceOver OS to investigate how accessible the site was with a screen reader.</p>
@@ -166,7 +167,7 @@
                             <img class="vo-img" src="../img/vo.png" />
                         </div>
                     </div>
-                    <h3 style="margin-top: 5%"> Prioritising Accessibility Issues </h3>
+                    <h3 style="margin-top: 10%"> Prioritising Accessibility Issues </h3>
                     <div class="severity-rating-container">
                         <p> To help prioritise the most important accessibility issues for stakeholders to address, I modified <a href="https://measuringu.com/rating-severity/"> Molich and Jeffries 3 point rating scale. </a></p>
                         <table>
@@ -213,7 +214,7 @@
                         </div>
                     </div>
                     <div class="issues-container">
-                        <h3 style="margin-bottom:2%"> High priority issues </h2>
+                        <h3 style="margin-bottom:2%"> Example Issue Reporting </h2>
                         <h5 style="font-size:16px"><Strong style="color:#ec9a6d">1. Perceivable:</Strong> <em>Information and user interface components must be presentable to users in ways they can perceive.</em></h5>
                         <table>
                             <tr style="color: white">
@@ -246,119 +247,31 @@
                                 </td>
                             </tr>
                         </table>
-                        <h5 style="margin-top: 2%; font-size:16px"><strong style="color:#ec9a6d">2. Operable:</strong><em> User interface components and navigation must be operable.</em></h5>
-                        <table>
-                            <tr style="color: white">
-                                <th class="cell header">Issue</th>
-                                <th class="cell header">Description</th>
-                            </tr>
-                            <tr>
-                                <td class="cell row-1b" style="vertical-align: top;">
-                                    <p><strong>Identified issue:</strong></p>
-                                    <p>Inaccurate use of links.</p>
-                                    <p><strong>Violation:</strong></p>
-                                    <p>2.4.4 – Link Purpose (In Context) (Level A), 4.1.2 – Name, Role, Value (Level A) </p>
-                                    <p><strong>Severity:</strong></p>
-                                    <p>3 - Catastrophic</p>
-                                    <p><strong>Location:</p></strong>
-                                    <ul style="padding-left: 15px">
-                                        <li>Home Page,</li>
-                                        <li>Just Starting Out,</li>
-                                        <li>What's new</li>
-                                    </ul>
-                                </td>
-                                <td class="cell row-1b" style="vertical-align: top;">
-                                    <p><strong>Identified description:</strong></p>
-                                    <p>On the Home page, Just Starting Out page and the What’s New page, the function of multiple hyperlinks within the body text of the page is ambiguous, such as ‘here, ‘click here’ or ‘what is this?’. Furthermore, there are several instances of links which share the same text label but send the user to different locations. </p>
-                                    <p><strong>Why it matters:</strong></p>
-                                    <p> Clear links provide a useful way for users to navigate from one page to another on a website. Visually impaired users rely on clearly defined links whilst they use screen readers to tab through the links on a page. Furthermore, clearly defined links help to prevent users with cognitive impairments from becoming disorientated on a site. In contrast, links that are ambiguous, misleading and redundant impede both visually impaired and cognitively impaired users from being able to understand the content on a page. As a result, they are unable to complete their desired task whilst on the site. </p> 
-                                    <p><strong>Suggested fix:</strong></p>
-                                    <p> Make sure all link text clearly describes the intended function of each link. It is equally important to make sure that links which take the user to different locations, don’t share the same link text. Also, consider removing the redundant links from the home page layout table. </p>
-                                </td>
-                            </tr>
-                        </table>
-                        <h5 style="margin-top: 2%; font-size:16px"><strong style="color:#ec9a6d">3. Understandable: </strong><em>Information and the operation of user interface must be understandable.</em></h5>
-                        <table>
-                            <tr style="color: white">
-                                <th class="cell header">Issue</th>
-                                <th class="cell header">Description</th>
-                            </tr>
-                            <tr>
-                                <td class="cell row-1b" style="vertical-align: top;">
-                                    <p><strong>Identified issue:</strong></p>
-                                    <p>Inconsistent identification of user input errors.</p>
-                                    <p><strong>Violation:</strong></p>
-                                    <p>3.3.1 – Error Identification (Level A)</p>
-                                    <p><strong>Severity:</strong></p>
-                                    <p>3 - Catastrophic</p>
-                                    <p><strong>Location:</p></strong>
-                                    <ul style="padding-left: 15px">
-                                        <li>Create Account</li>
-                                    </ul>
-                                </td>
-                                <td class="cell row-1b" style="vertical-align: top;">
-                                    <p><strong>Identified description:</strong></p>
-                                    <p>When creating an account, the site does not identify user input errors across the input form fields: Username, Password, Confirm password, Email Address, Real Name (optional).</p>
-                                    <p><strong>Why it matters:</strong></p>
-                                    <p>Providing input error messages allows users who are visually impaired to identify an error via a screen reader. Furthermore, users with cognitive impairments rely on consistent error identification to help clearly identify and explain all user errors collectively.  </p> 
-                                    <p><strong>Suggested fix:</strong></p>
-                                    <p>When a user makes an error, make sure an error identification message appears next to each input field where an error has occurred. </p>
-                                </td>
-                            </tr>
-                        </table>
-                        <h5 style="margin-top: 2%; font-size:16px"><strong style="color:#ec9a6d">Robust: </strong> <em>Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.</em></h5>
-                        <table>
-                            <tr style="color: white">
-                                <th class="cell header">Issue</th>
-                                <th class="cell header">Description</th>
-                            </tr>
-                            <tr>
-                                <td class="cell row-1b" style="vertical-align: top;">
-                                    <p><strong>Identified Issue:</strong></p>
-                                    <p>Lack of aria labels used to describe user interface components. </p>
-                                    <p><strong>Violation:</strong></p>
-                                    <p>4.1.2 – Name, Role, Value (Level A)</p>
-                                    <p><strong>Severity:</strong></p>
-                                    <p>3 - Catastrophic</p>
-                                    <p><strong>Location:</p></strong>
-                                    <ul style="padding-left: 15px">
-                                        <li>Home Page,</li>
-                                        <li>What’s New,</li>
-                                        <li>Just Starting Out,</li>
-                                    </ul>
-                                </td>
-                                <td class="cell row-1b" style="vertical-align: top;">
-                                    <p><strong>Identified description:</strong></p>
-                                    <p>On all pages, user interface components, such as links, do not have accompanying ARIA labels to describe their intended purpose to the user. </p>
-                                    <p><strong>Why it matters:</strong></p>
-                                    <p>For users of screen reading technology, ARIA Labels help provide an additional description of user interface components when the HTML alternative text script is not sufficient. </p> 
-                                    <p><strong>Suggested fix:</strong></p>
-                                    <p> Ensure all user interface components that have unclear alternative text are provided with accompanying ARIA labels that describe the intended purpose of the component.  </p>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
                 </section>
                 <hr style="opacity: 50%; margin-top: 10%; text-align: center;">
                 <h2 class="more-work">More Work:</h2>
                 <div class="more-work-container">
-                    <a href="../ixd/ixd.html" style="color: white">
+                    <a href="../ia/ia.html" style="color: white">
                         <button class="nes-btn is-primary">
-                        Design Thinking
-                        </button>
-                    </a>
-                    <a href="../wcag/wcag.html" style="color: white">
-                        <button class="nes-btn is-primary">
-                        Accessibility Audit
+                        Deep Dive
                         </button>
                     </a>
                     <a href="../ixd/ixd.html" style="color: white">
                         <button class="nes-btn is-primary">
-                        Web Development
+                        The Cartoon Museum
+                        </button>
+                    </a>
+                    <a href="../tulip/tulip.html" style="color: white">
+                        <button class="nes-btn is-primary">
+                        Tulip
                         </button>
                     </a>
                 </div>
             </article>
         </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>

@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Web Development</title>
+        <title>Tulip</title>
         <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
                     <a class="resource" href="about/about.html"> About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="resource" href="../files/jon-resume.pdf"> Resume </a>
+                    <a class="resource" href="../files/cv.pdf" target="_blank"> CV </a>
                 </li>
             </ul>
         </nav>
@@ -96,31 +96,36 @@
                             </ul>
                         </div>
                     </div>
-                <hr style="opacity:50%">
                 <section id="context">
+                    <hr style="opacity:50%">
                     <h2 style="text-align: center; margin-bottom: 5%"> Context </h2>
                     <p style="text-align: center"><em>"Investing without research is like playing stud poker and never looking at the cards" - Peter Lynch</em>
-                    <p> In the finance industry, retail investors have been typically labelled as ‘dumb money’ because they tend to base their investment decisions on instinct rather than research and unfortunately such behaviour adversely affects their investment returns. This is largely due to retail investors not having enough time, experience, or patience to conduct thorough investment research.</p>
-                    <p>Renowned money manager, Peter Lynch, argues that retail investors are able to pick winning stocks just as well as Wall Street experts by taking notice of their immediate world around them and doing just a little research into financial statements.</p>
-                    <p>For many amateur retail investors, financial statement analysis has been made out to be esoteric and technical. However, once equipped with the understanding of what different key numbers mean, reviewing financial statements becomes part of a broader and more intuitive process of interpreting a story surrounding a company and deciidng on whether or not to invest. </p>
-                    <p> Today, many decision support systems do little to empower amateur investors in interpreting financial information. Instead, these systems are typically designed to offload the user's cognitive processing, resulting in slow and ineffective learning. </p>
-                    <div class="the-challenge">
-                        <h3 style="text-align:center"> The Challenge </h3> 
-                        <p> How might we design a system that empowers amateur investors to interpret a company's financial statements? </p>
+                    <p> In the finance industry, retail investors have been typically labelled as ‘dumb money’ because they tend to base their investment decisions on instinct rather than research. This is largely due to retail investors not having enough time, experience, or patience to conduct investment research. Unfortunately, such behaviour negatively affects investment returns.</p>
+                    <p> Renowned money manager, Peter Lynch, argues that retail investors are able to pick winning stocks just as well as Wall Street experts by taking notice of their immediate world around them and doing just a little research into a company's financial statements.</p>
+                    <p> For many amateur retail investors, financial statement analysis has been made out to be esoteric and technical. However, once equipped with the understanding of what different key numbers mean, reviewing financial statements becomes part of a broader and more intuitive process of interpreting a story surrounding a company. </p>
+                    <p> Today, many decision support systems do little to empower amateur investors with interpreting financial information. Instead, these systems are typically designed to offload the user's cognitive processing, resulting in slow and ineffective learning. </p>
+                    <div class="research-goals-container">
+                        <div class="research-goals">
+                            <h3> Project Aim </h3> 
+                            <ol>
+                                <li>Research the interaction behaviour and rationale of expert financial analysts when interpreting financial statements.</li>
+                                <li>Address this behaviour in a prototype designed to support amateur investors.</li>
+                            </ol>
+                        </div>
+                        <div class="research-methods">
+                            <h3>Objectives</h3>
+                            <p> To achieve this aim, I established the following objectives:</p>
+                            <ol>
+                                <li>To understand the interaction behaviour and rationale of expert financial analysts when interpreting financial statements.</li>
+                                <li>Establish design guidelines in line with the research findings.</li>
+                                <li>Produce a high-fidelity prototype that supports amateur investors in interpreting financial statements.</li>
+                                <li>Evaluate the usefulness of the prototype by observing amateur investors using the prototype to interpret financial statements.</li>
+                            </ol>
+                        </div>
                     </div>
-                    <h3 style="text-align:center; margin-top: 5%"> Project Aim </h3> 
-                    <p>The aim of this project is to research the interaction behaviour and rationale of expert financial analysts when interpreting financial statements. Subsequently, this project aims to address this behaviour in a prototype designed to support amateur investors.</p>
-                    <h3 style="text-align:center">Objectives</h3>
-                    <p> To achieve this aim, I established the following objectives:</p>
-                        <ol>
-                            <li>To understand the interaction behaviour and rationale of expert financial analysts when interpreting financial statements.</li>
-                            <li>Establish design guidelines in line with the research findings.</li>
-                            <li>Produce a high-fidelity prototype that supports amateur investors in interpreting financial statements.</li>
-                            <li>Evaluate the usefulness of the prototype by observing amateur investors using the prototype to interpret financial statements.</li>
-                        </ol>
                 </section>
-                <hr style="opacity:50%">
                 <section id="timeline">
+                    <hr style="opacity:50%">
                     <h2 style="text-align: center;">Timeline</h2>
                     <div class="timeline-container">
                         <div class="line"></div>
@@ -161,8 +166,8 @@
                         </div>
                     </div>
                 </section>
-                <hr style="opacity:50%" id="research">
-                <section>
+                <section id="research">
+                <hr style="opacity:50%">
                 <h2 style="text-align: center;">Research</h2>
                 <div class="topic-filters">
                     <button class="nes-btn is-success topic-button">Data Collection</button>
@@ -204,30 +209,221 @@
                             <div class="analysis-des">
                                 <h3>Thematic Analysis Process</h3>
                                 <ol>
-                                    <li>Transcribe, read, re-read and write down initial ideas.</li>
-                                    <li>Systematically generate initial codes which relate to interesting features of the data and collating relevant data into each code. To support this step, the qualitative data analysis software, <span style="color: #ec9a6d">Dovetail,</span> was used to assign tags to data</li>
-                                    <li>Collating codes into potential themes</li>
-                                    <li>Reviewing the themes by looking at the underlying data under each theme and checking that the themes made sense in relation to the coded extracts.</li>
-                                    <li>Defining and naming the themes to help tell the overall story of the analysis.</li>
-                                    <li>The sixth step focused on producing the analysis report by selecting compelling and vivid extract examples.</li>
+                                    <li>Transcribed, read, re-read and wrote down initial ideas.</li>
+                                    <li>Used Dovetail to systematically generate initial codes relating to interesting features of the data and collated relevant data into each code.
+                                    <li>Collated codes into potential themes</li>
+                                    <li>Reviewed the themes by looking at the underlying data under each theme and checking that the themes made sense in relation to the coded extracts.</li>
+                                    <li>Defined and named the themes to help tell the overall story of the analysis.</li>
+                                    <li>Produced the analysis report by selecting compelling and vivid extract examples.</li>
                                 </ol>
                             </div>
                             <div class="analysis-img">
-                                <img src="../img/dovetail.png" alt="dovetail's canvas view">
+                                <img class="dovetail" src="../img/dovetail.png" alt="dovetail">
+                                <p style="opacity: 60%; text-align: center;"><em>Dovetail: Canvas View</em></p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Typeface content displayed on clicking Styles button -->
                     <div class="topic-details topic-details-findings hide">
-                        <h3 class="heading typeface">Findings</h3>
-                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores cum accusantium optio, doloribus perferendis, placeat facere molestias corporis cumque adipisci, laboriosam fuga nobis quam amet error praesentium laborum molestiae eos. </p>
+                        <h3 class="heading typeface">Themes</h3>
+                        <p> From the data collected, I picked out the following six themes which reflect the behaviour and rationale of expert investors performing financial statement analysis. </p>
+                        <ol>
+                            <li>Framing and reframing an account or story of a company. </li>
+                            <li>Developing and applying an investment strategy to guide a focused process. </li>
+                            <li>Acquiring contextual information surrounding a company, its industry, its related countries and the stock market that it trades in. </li>
+                            <li>Applying intuition to help make sense of uncertain information. </li>
+                            <li>Applying analytical techniques to assess a company's past performance and current financial position. </li>
+                            <li>Referencing a variety of resources</li>
+                        </ol>
+
+                        <h3> Design Guidelines</h3>
+                        <p>Based on the findings from the data analysis, I created the following design guidelines to inform the design of the prototype. </p>
+                        <ol>
+                            <li>Support users in framing and reframing of a company’s financial information. </li>
+                            <li>Support users in developing and applying an investment strategy. </li>
+                            <li>Support users in acquiring a company’s contextual information. </li>
+                            <li>Support users in developing and applying their intuitive tacit knowledge. </li>
+                            <li>Support users in applying a variety of analytical techniques.</li>
+                            <li>Support users in referencing a variety of information resources. </li>
+                        </ol>
                     </div>    
                 </section>
-                <hr style="opacity:50%">
-                <section>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati rerum neque dolorum ea soluta atque, saepe sint quia nam earum pariatur. Veniam, itaque est molestiae omnis exercitationem accusantium voluptates.</p>
+                <section id="design">
+                    <hr style="opacity:50%">
+                    <h2 style="text-align: center;">Design</h2>
+                    <div class="sub-section">
+                        <div class="des">
+                            <h3>Conceptual Design</h3>
+                            <p>During the conceptual design stage, my focus was on ‘getting the right design’ as opposed to ‘getting the design right’. Therefore, I started the design process by sketching low-fidelity conceptual wireframes onto a whiteboard. This quick and dirty approach helped me to think more openly and creatively about how the design guidelines can be implemented into the prototype. </p> 
+                        </div>
+                        <div class="img">
+                            <img src="../img/whiteboard.jpg" alt="Whiteboard with conceptual design sketches">
+                        </div>
+                    </div>
+                    <div class="sub-section">
+                        <div class="img">
+                            <img src="../img/design-library.png" alt="Example of component set in the design library. ">
+                        </div>
+                        <div class="des">
+                            <h3>Design Library</h3>
+                            <p>With the sketches as a guide, I designed a high-fidelity clickable prototype using Figma. To showcase the full range of features and functionality that would be available in a final product, I designed the prototype to a highly detailed level. To ensure consistency in the visual design of the prototype, I created a design library in Figma which incorporated guides for colour, typography and grids along with a range of reusable functional components.</p> 
+                        </div>
+                    </div>
+                    <div class="sub-section">
+                        <div class="des">
+                            <h3> Using Disney as a use case. </h3>
+                            <p>I used Disney as a use case for illustrating how the product can support amateur investors in interpreting a company’s financial statements. I chose Disney for the following reasons: </p>
+                            <ul>
+                                <li>Many amateur investors will have some understanding of Disney as a business due to its significant presence in popular culture, allowing me to see how effective the prototype is supporting the user's pre-existing knowledge.</li>
+                                <li>Disney has a broad and complicated business which gives amateur investors plenty of room to use the breadth of the features on the prototype to develop more nuanced and refined story of the company. </li>
+                            </ul> 
+                        </div>
+                        <div class="img">
+                            <img src="../img/disney.jpeg" alt="The Walt Disney Company">
+                        </div>
+                    </div>
+                    <h3>Using an introductory video</h3>
+                    <p>I also decided to integrate a short video into the prototype to bring awareness to the breadth of features available on the prototype. This helped to support a more naturalistic evaluation. </p> 
+                    <div class="video">
+                        <video width="auto" controls>
+                            <source src="../img/tulip.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                    <h3 style="margin-top: 5%">Prototype Design</h3>
+                    <p>The following slides represent a selection of the key features integrated into the prototype design.
+                    <div class="slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 10</div>
+                                <img src="../img/strategy-title.png">
+                            </div>
+                
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 10</div>
+                                <img src="../img/strategy-ptf.png">
+                            </div>
+                
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 10</div>
+                                <img src="../img/dashboard-title.png">
+                            </div>
+                
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 10</div>
+                                <img src="../img/company-ptf.png">
+                            </div>
+                
+                            <div class="mySlides fade">
+                                <div class="numbertext">5 / 10</div>
+                                <img src="../img/notepad-title.png">
+                            </div>
+                
+                            <div class="mySlides fade">
+                                <div class="numbertext">6 / 10</div>
+                                <img src="../img/notepad-ptf.png">
+                            </div>
+                
+                            <div class="mySlides fade">
+                                <div class="numbertext">7 / 10</div>
+                                <img src="../img/statements-title.png">
+                            </div>
+    
+                            <div class="mySlides fade">
+                                <div class="numbertext">8 / 10</div>
+                                <img src="../img/statements-ptf.png">
+                            </div>
+    
+                            <div class="mySlides fade">
+                                <div class="numbertext">9 / 10</div>
+                                <img src="../img/line-title.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">10 / 10</div>
+                                <img src="../img/sidebar-ptf.png" style="width:100%">
+                            </div>
+                
+                            <a class="prev nes-btn is-success" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next nes-btn is-success" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    </div>
+                    <div class="the-prototype">
+                        <h3 style="text-align:center; color: white;"> Prototype Access</h3> 
+                        <p style="text-align:center"><a href="https://figma.fun/eZvRrN" target="_blank">Click here to access the prototype</a></p>
+                    </div>
                 </section>
+                <hr style="opacity:50%" id="evaluation">
+                <section>
+                    <h2 style="text-align:center">Evaluation</h2>
+                    <div class="eval-goal">
+                        <h3> Goal</h3> 
+                        <p> The goal of the evaluation was to measure the usefulness of the prototype in supporting amateur investors with interpreting financial statements to make an informed investment decision.</p>
+                    </div>
+                    <div class="research-goals-container">
+                        <div class="research-goals">
+                            <h3> Data Collection Method </h3>
+                            <ul>
+                                <li> Remote moderated user tests, including: </li>
+                                <li> Pre- and post-test likert scale questionnaire designed to measure change in confidence levels. </li>
+                                <li> Naturalistic observations with think aloud approach. </li>
+                            </ul>
+                        </div>
+                        <div class="research-methods">
+                            <h3> Analysis Method </h3>
+                            <ul>
+                                <li> Group average change: Measuring the change in the mean average value for the pre-test and post-test responses across the entire sample of participants.</p></li>
+                                <li> Individual changes: I also compared the change in confidence levels of each participant to see the variance amongst the sample.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sub-section">
+                        <div class="des">
+                            <h3>Questionnaire Design</h3>
+                            <p> The questions that I used in the pre- and post-test questionnaire were modified from another <a href="https://www.researchgate.net/publication/225559718_Validation_of_a_Questionnaire_to_Measure_Mathematics_Confidence_Computer_Confidence_and_Attitudes_towards_the_Use_of_Technology_for_Learning_Mathematics">questionnaire</a> which measured confidence towards learning mathematics. As such, participants were asked to rate their level of agreement to eleven statements surrounding their confidence towards financial statement analysis. </p>
+                        </div>
+                        <div class="img">
+                            <img src="../img/questionnaire-tulip.png" alt="questionnaire responses snapshot">
+                        </div>
+                    </div>        
+                    <div class="sub-section">
+                        <div class="des" style="margin-right: 20px;">
+                            <h3>Findings</h3>
+                            <p>Across the entire sample of participants, there was an increase in average confidence levels in interpreting financial statements after using the prototype from a pre-test level of 3.01 (neutral confidence) to a post-test confidence level of 3.90 (high confidence).</p>
+                            <p>On a more granular level, all participants experienced an increase in confidence levels in interpreting financial statements after using the prototype.</p>
+                        </div>
+                        <div class="img">
+                            <img src="../img/eval-chart.png" alt="Chart displaying each participant's average scores before and after using the prototype">
+                        </div>
+                    </div>
+                    <h3 style="margin-top: 5%;">Summary Notes</h3>
+                    <ul>
+                        <li>Expert analysts were found to conduct financial statement analysis in an intuitive manner of framing and reframing a company’s information to make an informed investment decision.</li>
+                        <li>Based on these findings and the findings of related literature, I established a set of six design guidelines to inform the design of a prototype.</li>
+                        <li>By showing a statistically significant increase in the confidence levels of amateur investors after using the prototype, the evaluation revealed that these guidelines are useful in supporting amateur investors with interpreting financial statements.</li>
+                    </ul>
+                </section>
+                <hr style="opacity: 50%; margin-top: 10%; text-align: center;">
+                <h2 class="more-work">More Work:</h2>
+                <div class="more-work-container">
+                    <a href="../ia/ia.html" style="color: white">
+                        <button class="nes-btn is-primary">
+                        Deep Dive
+                        </button>
+                    </a>
+                    <a href="../wcag/wcag.html" style="color: white">
+                        <button class="nes-btn is-primary">
+                        My Care Budget
+                        </button>
+                    </a>
+                    <a href="../ixd/ixd.html" style="color: white">
+                        <button class="nes-btn is-primary">
+                        The Cartoon Museum
+                        </button>
+                    </a>
+                </div>
             </article>
         </div>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

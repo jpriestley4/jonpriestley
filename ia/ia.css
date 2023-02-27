@@ -181,10 +181,20 @@ h4{
 
 /* Understanding Styles */
 
+.img-container{
+    padding: 2%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .audience{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 5%;
 }
 
 .person{
@@ -206,9 +216,8 @@ h4{
 
 .analyst-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 2%;
+    flex-direction: column;
+    margin-top: 5%;
     margin-bottom: 4%;
     padding: 0;
 }
@@ -227,10 +236,9 @@ h4{
 }
 
 .analyst-description{
-    flex: 4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   margin-left: auto;
+   margin-right: auto; 
+   width: 50%;
 }
 
 .analyst-description p{
@@ -248,7 +256,7 @@ h4{
 
 .domain-img{
     flex: 1;
-    width: 30%;
+    width: 100%;
 }
 
 .site-map-container{
@@ -261,8 +269,7 @@ h4{
 
 .site-map-img{
     flex: 1;
-    width: 30%;
-    height: 30%;
+    width: 100%;
     align-self: center;
 }
 
@@ -277,8 +284,7 @@ h4{
 
 .journey-img{
     flex: 1;
-    width: 30%;
-    height: 30%;
+    width: 100%;
     align-self: center;
 }
 
@@ -293,8 +299,7 @@ h4{
 
 .wireframes-img{
     flex: 1;
-    width: 30%;
-    height: 30%;
+    width: 100%;
     align-self: center;
 }
 
@@ -309,14 +314,16 @@ h4{
 
 .more-work-container{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+    justify-content: space-between;
 }
 
-.nes-btn{
+.more-work-container button{
     font-family:"press start 2p";
     border-color: white;
-    margin-bottom: 10%;
 }
 
 /* footer placeholder */
