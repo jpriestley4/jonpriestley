@@ -529,3 +529,59 @@ h4{
     font-family:"press start 2p";
     border-color: white;
 }
+
+/* footer */
+
+footer{
+    background-color: #201127;
+    min-height: 30px;
+    padding: 2%;
+}
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-me ul{
+    list-style: none;
+    font-family: 'Anek Latin', sans-serif;
+    padding-left: 0;
+}
+
+.contact-me li{
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+
+.contact-me p{
+    color: white;
+}
+
+.contact-me h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.credit{
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.linkedin{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anek Latin', sans-serif;
+}
