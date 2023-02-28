@@ -380,17 +380,6 @@ h4{
     margin-bottom: 8px;
 }
 
-.back-to-top{
-    display: flex;
-    justify-content: center;;
-}
-
-.scroll-btn{
-    margin-top: 5%;
-    box-shadow: 0 5px 20px rgb(0 0 0 / 60%);
-    transition: all 0.3s ease;
-}
-
 .analysis-container{
     display: flex
 }
